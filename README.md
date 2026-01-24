@@ -1,4 +1,4 @@
-# AI-Powered CV Reader 📄
+# AI-Powered CV Reader 
 
 A Python-based command-line tool that uses OpenAI's GPT models to extract and summarize key information from PDF resumes. It handles long documents by chunking text and provides a concise summary of skills, experience, and education.
 
