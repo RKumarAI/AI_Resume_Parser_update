@@ -1,0 +1,9 @@
+openai>=2.15.0
+pypdf>=6.6.0
+python-docx>=1.2.0
+python-dotenv>=1.2.0
+
+[dev]
+black
+pytest
+ruff
