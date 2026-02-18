@@ -106,7 +106,7 @@ def main():
     args = parser.parse_args()
 
     if not Path(args.pdf_path).exists():
-        print(f"❌ File not found: {args.pdf_path}")
+        print(f" File not found: {args.pdf_path}")
         sys.exit(1)
 
     try:
@@ -125,7 +125,7 @@ def main():
             print(f"\n Summary saved to {args.output}")
 
     except Exception as e:
-        print(f"❌ Critical Error: {e}")
+        print(f" Critical Error: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
